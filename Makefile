@@ -2,8 +2,8 @@ NAME			=	get_next_line
 NAME_D			=	${NAME}_debug
 CC 				=	gcc
 CC_FLAGS		=	-Wall -Werror -Wextra
-CC_FLAGS_D		=	-g
-HEADER			=	includes/header.h
+CC_FLAGS_D		=	-g -DBUFFER_SIZE=5
+HEADER			=	includes/get_next_line.h
 SRCS			=	${wildcard srcs/*.c}
 OBJS			=	${SRCS:%.c=%.o}
 OBJS_D			=	${SRCS:%.c=%_debug.o}
