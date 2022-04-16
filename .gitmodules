@@ -1,3 +1,4 @@
 [submodule "testers/gnlTester"]
 	path = testers/gnlTester
 	url = https://github.com/Tripouille/gnlTester.git
+	branch = master
